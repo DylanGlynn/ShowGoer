@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-right: auto;
+    
+}
+
+.navbar__item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo__small {
+    max-width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__group-right {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.newPost__icon {
+    margin-right: 5px;
+}
+
+ul.navbar {
+    margin: 5px 0 0 0;
+}
+
+li.navbar__item {
+    margin-right: 0;
+}

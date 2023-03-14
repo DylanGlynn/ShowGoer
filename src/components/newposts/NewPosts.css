@@ -1,0 +1,39 @@
+.newPost__form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.newPost__header {
+    font-family: "Lobster";
+    font-size: 1.85em;
+    color: rgb(185, 140, 0);
+}
+
+.sfw {
+    display: flex;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 0;
+}
+
+.sfw__box {
+    max-width: fit-content;
+    margin-right: 0.5rem;
+    justify-content: left;
+}
+
+.textform-control {
+    width: 25em;
+    padding: .30rem 0;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 1rem;
+    color: rgba(23, 23, 23, 1);
+    text-indent: 1.1rem;
+    margin-bottom: 0;
+}

@@ -1,0 +1,79 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.create__post {
+    margin: 50px 0;
+}
+
+.createPost__link {
+    color: rgb(23, 23, 23);
+    padding: 15px 40px;
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: rgb(185, 140, 0);
+    font-family: "Lobster";
+    font-size: 1.85em;
+    border-radius: 5px;
+}
+
+.feed {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.post {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 5px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post__photo {
+    border: 1px solid rgb(185, 140, 0);
+    height: 306px;
+    width: 534px;
+}
+
+.post__details {
+    text-align: left;
+    border-left: 2px solid rgb(185, 140, 0);
+    border-right: 2px solid rgb(185, 140, 0);
+    margin: 15px;
+    padding: 5px 15px;
+    font-family: "Lobster";
+    line-height: 1.15rem;
+    font-size: 1rem;
+    width: 272px;
+}
+
+.post__bandName {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: rgb(185, 140, 0);
+    /* border-bottom: 1px solid rgb(185, 140, 0); */
+}
+
+.post__memories {
+    margin: 15px 0px;
+    padding: 0px 15px;
+    width: 290px;
+}
+
+.post__memoriesHeader {
+    font-family: "Lobster";
+    font-size: 1.15rem;
+    text-align: left;
+}
+
+.post__memoriesBody {
+    font-style: italic;
+    text-align: left;
+    text-indent: 5px;
+}

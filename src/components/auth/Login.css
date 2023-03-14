@@ -1,0 +1,107 @@
+.logo__large {
+    margin-top: 10%;
+}
+
+fieldset {
+    margin: 0;
+    border: 0;
+}
+
+.form--login {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.form--login>fieldset {
+    width: 25em;
+}
+
+.label--login {
+    display: inline-table;
+}
+
+.login__prompt {
+    color: rgba(180, 145, 0, 1);
+    text-align: center;
+}
+
+.form-control {
+    width: 25em;
+    padding: .30rem 0;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 5rem;
+    color: rgba(23, 23, 23, 1);
+    text-indent: 1.1rem;
+}
+
+.container--login {
+    text-align: center;
+}
+
+.button--close {
+    position: relative;
+    bottom: -2rem;
+}
+
+.register__link {
+    font-style: italic;
+    color: rgba(185, 140, 0, 1);
+    text-decoration: none;
+}
+
+.register__buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button__signin {
+    color: rgba(23, 23, 23, 1);
+    background-color: rgba(185, 140, 0, 1);
+    border-radius: 5rem;
+    width: 25rem;
+    padding: .30rem 0;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.button__submit {
+    color: rgba(23, 23, 23, 1);
+    background-color: rgba(185, 140, 0, 1);
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    width: 12.5em;
+    padding: .30rem 0;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.button__cancel {
+    color: rgba(23, 23, 23, 1);
+    background-color: rgba(185, 140, 0, 1);
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    width: 12.5rem;
+    padding: .30rem 0;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.register__form {
+    text-align: center;
+}
+
+.register__check {
+    margin: 0 5px 0 0;
+}
+
+.register__isStaff {
+    font-family: 'Playfair Display';
+    margin: 0px;
+    font-style: italic;
+    color: rgba(217, 217, 217, 1);
+    align-items: left;
+}

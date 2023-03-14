@@ -1,5 +1,109 @@
 {
-    "users": [],
-    "posts": [],
-    "bands": []
+  "users": [
+    {
+      "email": "president@usa.gov",
+      "firstName": "Not",
+      "lastName": "Sure",
+      "password": "passwordz",
+      "isStaff": false,
+      "id": 1
+    },
+    {
+      "email": "dylan.hawes.glynn@gmail.com",
+      "firstName": "Dylan",
+      "lastName": "Glynn",
+      "password": "passwordz",
+      "isStaff": true,
+      "id": 2
+    },
+    {
+      "email": "kulabocca@gmail.com",
+      "firstName": "Christopher",
+      "lastName": "Davis",
+      "password": "passwordz",
+      "isStaff": false,
+      "id": 3
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "10B Dirt Rd., Nashville, TN 37210",
+      "phoneNumber": "(615) 421-9333",
+      "loyaltyNumber": 1001
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 2
+    }
+  ],
+  "posts": [
+    {
+      "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678731459/ShowGoer/IMG_1669_sqgrnf.heic",
+      "userId": 3,
+      "bandId": 4,
+      "venue": "The Bijou Theater, Knxville, TN",
+      "showDate": "2023-02-28",
+      "uploadDate": "2023-03-13T16:45:15.359Z",
+      "memories": "A wonderful showcase of the music of John Zorn!",
+      "SFW": true,
+      "id": 1
+    },
+    {
+      "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678731459/ShowGoer/IMG_5168_fgiq3m.heic",
+      "userId": 2,
+      "bandId": 7,
+      "venue": "The Basement East",
+      "showDate": "2019-10-14",
+      "uploadDate": "2023-03-12T01:57:08.585Z",
+      "memories": "Amazing set by the hybrid.",
+      "SFW": true,
+      "id": 2
+    }
+  ],
+  "bands": [
+    {
+      "id": 1,
+      "name": "Imperial Triumphant"
+    },
+    {
+      "id": 2,
+      "name": "Cleric."
+    },
+    {
+      "id": 3,
+      "name": "Patti Smith"
+    },
+    {
+      "id": 4,
+      "name": "The New Masada Quartet"
+    },
+    {
+      "id": 5,
+      "name": "Nine Inch Nails"
+    },
+    {
+      "id": 6,
+      "name": "Battles"
+    },
+    {
+      "id": 7,
+      "name": "Danny Brown"
+    },{
+      "id": 8,
+      "name": "Ex Hex"
+    },{
+      "id": 9,
+      "name": "The Jesus Lizard"
+    },{
+      "id": 10,
+      "name": "Vamptones"
+    },{
+      "id": 11,
+      "name": "Rosalía"
+    }
+  ]
 }
