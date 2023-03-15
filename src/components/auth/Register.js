@@ -10,6 +10,7 @@ export const Register = (props) => {
         firstName: "",
         lastName: "",
         password: "",
+        location: "",
         isStaff: false
     })
     const emailURL = `?email=${user.email}`
@@ -24,6 +25,7 @@ export const Register = (props) => {
                         firstName: createdUser.firstName,
                         lastName: createdUser.lastName,
                         email: createdUser.email,
+                        location: createdUser.location,
                         staff: createdUser.isStaff
                     }))
 
@@ -81,12 +83,18 @@ export const Register = (props) => {
                         placeholder="Enter your email address" required />
                 </fieldset>
                 <fieldset>
+                    <label htmlFor="location"></label>
+                    <input onChange={updateUser}
+                        type="text" id="location" className="form-control"
+                        placeholder="You live WHERE?!" required />
+                </fieldset>
+                <fieldset>
                     <label htmlFor="password"></label>
                     <input onChange={updateUser}
                         type="password"
                         id="password"
                         className="form-control"
-                        placeholder="Create a password"
+                        placeholder="Create a password already."
                         required />
                 </fieldset>
                 <fieldset>

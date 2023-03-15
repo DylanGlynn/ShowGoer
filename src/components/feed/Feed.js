@@ -14,7 +14,7 @@ export const Feed = () => {
 
     const [feed, setFeed] = useState([])
 
-    const postsSortNewExpandUserURL = `?_sort=uploadDate&_expand=user&_expand=band`
+    const postsSortNewExpandUserURL = `?_sort=uploadDate&_order=desc&_expand=user&_expand=band`
 
     useEffect(
         () => {

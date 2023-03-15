@@ -1,0 +1,51 @@
+.profile {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 50px auto;
+}
+
+.profile__iconLarge {
+    width: 75%;
+}
+
+.profile__details {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 15px;
+    text-align: left;
+    justify-content: space-around;
+    border-left: 2px solid rgb(185, 140, 0);
+    padding: 0 0 0 15px;
+}
+
+.profile__infoHeader {
+    font-family: 'Lobster';
+}
+
+.profile__personalInfo {
+    font-style: italic;
+    text-align: left;
+    text-indent: 5px;
+    font-size: 1rem;
+}
+
+.profile__personalInfo em {
+    font-family: 'Lobster';
+    color:rgb(185, 140, 0);
+    font-size: 1rem;
+    margin-right: 7px;
+}
+
+.profile__logout {
+    text-decoration: none;
+    font-family: 'Lobster';
+    color:rgb(185, 140, 0);
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+.feed__header {
+    text-align: center;
+    text-indent: -1050px;
+    margin-bottom: 5px;
+}

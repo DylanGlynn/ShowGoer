@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 export const Post = ({ id, userId, bandName, firstName, lastName, imgURL, venueName, showDate, memories }) => {
     return (
         <article className="post" key={`post--${id}`}>
-            <section className="post__photo">
-                <img src={imgURL} />
+            <section>
+                <img className="post__photo" src={imgURL} />
             </section>
             <section className="post__details">
                 <div className="post__bandName">{bandName}</div>

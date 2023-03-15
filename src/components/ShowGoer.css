@@ -27,9 +27,7 @@ h4,
 h5,
 h6 {
   font-family: 'Lobster';
-  letter-spacing: 2px;
   margin: 0px;
-  font-style: italic;
   color: rgba(185, 140, 0, 1);
 }
 

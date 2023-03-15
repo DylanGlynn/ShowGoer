@@ -19,13 +19,9 @@ export const ClientNav = () => {
 
                 {
                     <li className="navbar__item profile__icon">
-                        <Link className="profile__icon" to="" onClick={() => {
-                            localStorage.removeItem("sg_user")
-                            navigate("/", { replace: true })
-                        }}><img className="profile__icon" src={ProfileIcon} /></Link>
+                        <Link className="profile__icon" to={"/profile"}><img className="profile__icon" src={ProfileIcon} /></Link>
                     </li>
                 }
-
             </div>
         </ul>
     )

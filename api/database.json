@@ -5,6 +5,7 @@
       "firstName": "Not",
       "lastName": "Sure",
       "password": "passwordz",
+      "location": "Baltimore, MD",
       "isStaff": false,
       "id": 1
     },
@@ -13,6 +14,7 @@
       "firstName": "Dylan",
       "lastName": "Glynn",
       "password": "passwordz",
+      "location": "Nashville, TN",
       "isStaff": true,
       "id": 2
     },
@@ -21,17 +23,9 @@
       "firstName": "Christopher",
       "lastName": "Davis",
       "password": "passwordz",
+      "location": "Murfreesboro, TN",
       "isStaff": false,
       "id": 3
-    }
-  ],
-  "clients": [
-    {
-      "id": 1,
-      "userId": 1,
-      "address": "10B Dirt Rd., Nashville, TN 37210",
-      "phoneNumber": "(615) 421-9333",
-      "loyaltyNumber": 1001
     }
   ],
   "employees": [
@@ -42,18 +36,18 @@
   ],
   "posts": [
     {
-      "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678731459/ShowGoer/IMG_1669_sqgrnf.heic",
+      "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678897858/ShowGoer/yghvzott3c2phfwk6sy8.jpg",
       "userId": 3,
       "bandId": 4,
-      "venue": "The Bijou Theater, Knxville, TN",
+      "venue": "The Bijou Theater, Knoxville, TN",
       "showDate": "2023-02-28",
-      "uploadDate": "2023-03-13T16:45:15.359Z",
+      "uploadDate": "2023-03-15T16:45:15.359Z",
       "memories": "A wonderful showcase of the music of John Zorn!",
       "SFW": true,
       "id": 1
     },
     {
-      "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678731459/ShowGoer/IMG_5168_fgiq3m.heic",
+      "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678759155/ShowGoer/IMG_5168_fgiq3m.jpg",
       "userId": 2,
       "bandId": 7,
       "venue": "The Basement East",
@@ -62,6 +56,28 @@
       "memories": "Amazing set by the hybrid.",
       "SFW": true,
       "id": 2
+    },
+    {
+      "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678898332/ShowGoer/m01o6jfwvrlsagct2dzk.png",
+      "userId": 2,
+      "bandId": 15,
+      "venue": "The Caverns, Pelham, TN",
+      "showDate": "2019-04-20",
+      "uploadDate": "2023-03-14T16:40:31.677Z",
+      "memories": "None whatsoever!",
+      "SFW": false,
+      "id": 3
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678909677/ShowGoer/y5ctbcxss4ixyej7ljht.jpg",
+      "userId": 2,
+      "bandId": 9,
+      "venue": "Marathon Music Works, Nashville, TN",
+      "showDate": "2019-12-28",
+      "uploadDate": "2023-03-15T19:52:16.864Z",
+      "memories": "Fun times.",
+      "SFW": false,
+      "id": 4
     }
   ],
   "bands": [
@@ -92,18 +108,46 @@
     {
       "id": 7,
       "name": "Danny Brown"
-    },{
+    },
+    {
       "id": 8,
       "name": "Ex Hex"
-    },{
+    },
+    {
       "id": 9,
       "name": "The Jesus Lizard"
-    },{
+    },
+    {
       "id": 10,
       "name": "Vamptones"
-    },{
+    },
+    {
       "id": 11,
       "name": "Rosalía"
+    },
+    {
+      "id": 12,
+      "name": "Petra Hayden"
+    },
+    {
+      "id": 13,
+      "name": "Isolation Tank Ensemble"
+    },
+    {
+      "id": 14,
+      "name": "The Most Amazing Century of Science"
+    },
+    {
+      "id": 15,
+      "name": "Sunn O)))"
+    },
+    {
+      "id": 16,
+      "name": "Artificial Brain"
+    },
+    {
+      "id": 17,
+      "name": "Zeni Geva"
     }
   ]
 }

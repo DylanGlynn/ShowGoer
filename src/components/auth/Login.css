@@ -36,6 +36,7 @@ fieldset {
     border-radius: 5rem;
     color: rgba(23, 23, 23, 1);
     text-indent: 1.1rem;
+    text-align: left;
 }
 
 .container--login {

@@ -22,6 +22,7 @@ export const Login = () => {
                         id: user.id,
                         firstName: user.firstName,
                         lastName: user.lastName,
+                        location: user.location,
                         staff: user.isStaff
                     }))
                     navigate("/")

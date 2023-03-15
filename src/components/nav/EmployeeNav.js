@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom"
-import "./NavBar.css"
+import "./NavBar.css";
 import SgLogoSmall from "../img/Horizontal_Logo.png";
 import ProfileIcon from "../img/Profile_Icon.png";
 import NewPostIcon from "../img/NewPost_Icon.png";
@@ -19,13 +19,9 @@ export const EmployeeNav = () => {
 
                 {
                     <li className="navbar__item profile__icon">
-                        <Link className="profile__icon" to="" onClick={() => {
-                            localStorage.removeItem("sg_user")
-                            navigate("/", { replace: true })
-                        }}><img className="profile__icon" src={ProfileIcon} /></Link>
+                        <Link className="profile__icon" to={"/profile"}><img className="profile__icon" src={ProfileIcon} /></Link>
                     </li>
                 }
-
             </div>
         </ul>
     )

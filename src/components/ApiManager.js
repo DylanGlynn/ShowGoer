@@ -22,3 +22,16 @@ export const FetchExternal = (folder, filtering, method = {}) => {
     return fetch(`${storageAPI}${folder}${filtering}`, method)
         .then(res => res.json())
 }
+
+/* 
+fetch(`https://res.cloudinary.com/dwnxftunt/image/upload/v1678731459/ShowGoer/`, {
+            method: "POST",
+            body: newPost.src
+        })
+            .then((response) => {
+                return response.text();
+            })
+            .then((data) => {
+                document.getElementById("data").innerHTML += data;
+            });
+ */
