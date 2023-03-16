@@ -5,24 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.feedback {
-  border: 1px dotted cadetblue;
-  padding: 1rem;
-  background-color: rgb(218, 230, 247);
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  width: 70%;
-  transform: translate(-50%, -50%);
-  animation: 1s slideDown;
 }
 
 .invisible {

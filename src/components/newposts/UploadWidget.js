@@ -10,7 +10,6 @@ export const UploadWidget = (setImageURL) => {
             uploadPreset: `${process.env.REACT_APP_UPLOAD_PRESET}`
         }, function (error, result) {
             if (result.event === "success") {
-                console.log(result);
                 setImageURL(result.info.url)
             }
         });
@@ -19,7 +18,7 @@ export const UploadWidget = (setImageURL) => {
         <fieldset>
             <div className="form-group">
                 <button className="form-control" onClick={() => widgetRef.current.open()} >
-                    Select image to upload!
+                    {(widgetRef) ? "Select image to upload!" : "Your image is ready!"}
                 </button>
             </div>
         </fieldset>

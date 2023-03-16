@@ -26,6 +26,60 @@
       "location": "Murfreesboro, TN",
       "isStaff": false,
       "id": 3
+    },
+    {
+      "email": "subversiveworkshop@gmail.com",
+      "firstName": "Jeff",
+      "lastName": "McLeod",
+      "password": "passwordz",
+      "location": "Montgomery, AL",
+      "isStaff": true,
+      "id": 4
+    },
+    {
+      "email": "oswald.ramirez@gmail.com",
+      "firstName": "Oz",
+      "lastName": "Ramirez",
+      "password": "passwordz",
+      "location": "Philadelphia, PA",
+      "isStaff": true,
+      "id": 5
+    },
+    {
+      "email": "michael.oflinn@gmail.com",
+      "firstName": "Michael",
+      "lastName": "O'Flinn",
+      "password": "passwordz",
+      "location": "Nashville, TN",
+      "isStaff": false,
+      "id": 6
+    },
+    {
+      "email": "jodie.rosenblum@gmail.com",
+      "firstName": "Jodie",
+      "lastName": "Rosenblum",
+      "password": "passwordz",
+      "location": "Nashville, TN",
+      "isStaff": false,
+      "id": 7
+    },
+    {
+      "email": "andrew.currey@gmail.com",
+      "firstName": "Andrew",
+      "lastName": "Currey",
+      "password": "passwordz",
+      "location": "Madison, TN",
+      "isStaff": false,
+      "id": 8
+    },
+    {
+      "email": "albert.nua.jr@gmail.com",
+      "firstName": "Albert",
+      "lastName": "Nua",
+      "password": "passwordz",
+      "location": "Murfreesboro, TN",
+      "isStaff": true,
+      "id": 9
     }
   ],
   "employees": [
@@ -40,9 +94,9 @@
       "userId": 3,
       "bandId": 4,
       "venue": "The Bijou Theater, Knoxville, TN",
-      "showDate": "2023-02-28",
-      "uploadDate": "2023-03-15T16:45:15.359Z",
-      "memories": "A wonderful showcase of the music of John Zorn!",
+      "showDate": "03/28/2022",
+      "uploadDate": "2023-03-12T16:45:15.359Z",
+      "memories": "BIG EARS 2022!!! A wonderful showcase of the music of John Zorn!",
       "SFW": true,
       "id": 1
     },
@@ -50,22 +104,22 @@
       "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678759155/ShowGoer/IMG_5168_fgiq3m.jpg",
       "userId": 2,
       "bandId": 7,
-      "venue": "The Basement East",
+      "venue": "The Basement East, Nashville, TN",
       "showDate": "2019-10-14",
-      "uploadDate": "2023-03-12T01:57:08.585Z",
+      "uploadDate": "03/15/2023",
       "memories": "Amazing set by the hybrid.",
       "SFW": true,
       "id": 2
     },
     {
       "src": "https://res.cloudinary.com/dwnxftunt/image/upload/v1678898332/ShowGoer/m01o6jfwvrlsagct2dzk.png",
-      "userId": 2,
+      "userId": 6,
       "bandId": 15,
       "venue": "The Caverns, Pelham, TN",
       "showDate": "2019-04-20",
-      "uploadDate": "2023-03-14T16:40:31.677Z",
+      "uploadDate": "03/15/2023",
       "memories": "None whatsoever!",
-      "SFW": false,
+      "SFW": true,
       "id": 3
     },
     {
@@ -74,10 +128,131 @@
       "bandId": 9,
       "venue": "Marathon Music Works, Nashville, TN",
       "showDate": "2019-12-28",
-      "uploadDate": "2023-03-15T19:52:16.864Z",
+      "uploadDate": "03/15/2023",
       "memories": "Fun times.",
-      "SFW": false,
+      "SFW": true,
       "id": 4
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678913480/ShowGoer/woojnesctzwmdp0l0t8t.jpg",
+      "userId": 4,
+      "bandId": 17,
+      "venue": "The Nick, Birmingham, AL",
+      "showDate": "1994-11-18",
+      "uploadDate": "03/15/2023",
+      "memories": "Completely mesmerized...",
+      "SFW": true,
+      "id": 5
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678914475/ShowGoer/vmtftheqmajche8azvah.jpg",
+      "userId": 5,
+      "bandId": 5,
+      "venue": "The Met, Philadelphia, PA",
+      "showDate": "2022-05-24",
+      "uploadDate": "03/15/2023",
+      "memories": "Totally amazing.",
+      "SFW": true,
+      "id": 6
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678926072/ShowGoer/x4s6oi94vlmwvwa7egto.jpg",
+      "userId": 7,
+      "bandId": 14,
+      "venue": "House Show, Murfreesboro, TN",
+      "showDate": "2013-10-31",
+      "uploadDate": "03/15/2023",
+      "memories": "Incredible!!!",
+      "SFW": true,
+      "id": 7
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678937392/ShowGoer/eatvmpxq1z1lpej4dehh.jpg",
+      "userId": 8,
+      "bandId": 8,
+      "venue": "Exit/In, Nashville, TN",
+      "showDate": "2019-05-03",
+      "uploadDate": "3/15/2023",
+      "memories": "Mary Timony rules! What a fantastic show...",
+      "SFW": false,
+      "id": 8
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678937734/ShowGoer/vflqpwp7zv82qvrli6h3.jpg",
+      "userId": 8,
+      "bandId": 10,
+      "venue": "Media Rerun, Murfreesboro, TN",
+      "showDate": "2015-05-05",
+      "uploadDate": "3/15/2023",
+      "memories": "No...???",
+      "SFW": false,
+      "id": 9
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678938244/ShowGoer/l6rfkoutvlapxdt3xddc.jpg",
+      "userId": 8,
+      "bandId": 18,
+      "venue": "40 Watt Club, Athens, GA",
+      "showDate": "2023-03-15",
+      "uploadDate": "3/15/2023",
+      "memories": "Video game music, live!? What will they think of next?",
+      "SFW": false,
+      "id": 10
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678982286/ShowGoer/arut7lj0pvgwlih6bozb.jpg",
+      "userId": 2,
+      "bandId": 1,
+      "venue": "Decibel Beer & Metal Fest 2021, Filmore, Philadelphia, PA",
+      "showDate": "2021-09-26",
+      "uploadDate": "3/16/2023",
+      "memories": "Amazing festival from a person that hates festivals!",
+      "SFW": false,
+      "id": 11
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678983583/ShowGoer/sax67yvpm7bmz0tzo4p0.jpg",
+      "userId": 2,
+      "bandId": 1,
+      "venue": "The End, Nashville, TN",
+      "showDate": "2023-02-03",
+      "uploadDate": "3/16/2023",
+      "memories": "A fantastic set of avant-metal.",
+      "SFW": false,
+      "id": 12
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678985358/ShowGoer/sxwku2k65ozpaen2vkih.jpg",
+      "userId": 4,
+      "bandId": 23,
+      "venue": "unknown, Birmingham, AL",
+      "showDate": "1993-04-07",
+      "uploadDate": "3/16/2023",
+      "memories": "Foggy recollections of an age long passed.",
+      "SFW": false,
+      "id": 13
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678986290/ShowGoer/wtrcvuqs0cfxqccflcnh.jpg",
+      "userId": 2,
+      "bandId": 20,
+      "venue": "The Bijou Theater, Knoxville, TN",
+      "showDate": "2022-03-27",
+      "uploadDate": "3/16/2023",
+      "memories": "Big Ears!",
+      "SFW": false,
+      "id": 14
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678986519/ShowGoer/if2lgszrhmohlkw5iejr.jpg",
+      "userId": 2,
+      "bandId": 21,
+      "venue": "The Bijou Theater, Knoxville, TN",
+      "showDate": "2022-03-27",
+      "uploadDate": "3/16/2023",
+      "memories": "!!!!!",
+      "SFW": false,
+      "id": 15
     }
   ],
   "bands": [
@@ -148,6 +323,34 @@
     {
       "id": 17,
       "name": "Zeni Geva"
+    },
+    {
+      "id": 18,
+      "name": "Bit Brigade"
+    },
+    {
+      "id": 19,
+      "name": "Fugazi"
+    },
+    {
+      "id": 20,
+      "name": "Simulacrum"
+    },
+    {
+      "id": 21,
+      "name": "Chaos Magick"
+    },
+    {
+      "id": 22,
+      "name": "Sparks"
+    },
+    {
+      "id": 23,
+      "name": "Man or Astroman?"
+    },
+    {
+      "id": 24,
+      "name": "Meditations on the Tarot"
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { Fetch, FetchExternal, Method } from "../ApiManager"
+import { Fetch, Method } from "../ApiManager"
 import { UploadWidget } from "./UploadWidget"
 import "./NewPosts.css"
 
@@ -42,7 +42,7 @@ export const NewPosts = () => {
             bandId: parseInt(newPost.bandId),
             venue: newPost.venueName,
             showDate: newPost.showDate,
-            uploadDate: new Date().toISOString(),
+            uploadDate: new Date().toLocaleDateString(),
             memories: newPost.memories,
             SFW: newPost.SFW
         }
@@ -60,21 +60,6 @@ export const NewPosts = () => {
             <form className="newPost__form" onSubmit={handlePublishButtonClick}>
                 <div className="newPost__header">Let's share that awesome concert photo!</div>
                 {UploadWidget(setImageURL)}
-                {/* <fieldset>
-                    <div className="form-group">
-                        <label htmlFor="imgSrc"></label>
-                        <input
-                            required autoFocus
-                            type="file"
-                            className="form-control"
-                            placeholder="Select that concert photo!"
-                            value={newPost.src}
-                            onChange={(evt) => {
-                                const copy = { ...newPost }
-                                copy.src = evt.target.value
-                                setNewPost(copy)}} />
-                    </div>
-                </fieldset> */}
                 <fieldset>
                     <div className="form-group">
                         <label htmlFor="bandId"></label>

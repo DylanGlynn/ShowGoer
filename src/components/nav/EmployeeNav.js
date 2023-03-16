@@ -9,9 +9,12 @@ export const EmployeeNav = () => {
 
     return (
         <ul className="navbar">
+            <div className="navbar__group-left">
             <li className="navbar__item active">
                 <Link className="logo__small" to={"/"}><img className="logo__small" src={SgLogoSmall} /></Link>
             </li>
+            <div className="navbar__tagline">You are on the clock! Back to work!</div>
+            </div>
             <div className="navbar__group-right">
                 <li className="navbar__item active">
                     <Link className="logo__small" to={"/newposts"}><img className="newPost__icon" src={NewPostIcon} /></Link>

@@ -1,25 +1,28 @@
 import { useEffect, useState } from "react"
-import { Fetch, FetchExternal, Method } from "../ApiManager"
+import { Fetch, Method } from "../ApiManager"
 import { Link, useNavigate } from "react-router-dom"
 import { Cloudinary } from '@cloudinary/url-gen'
 import { Resize } from '@cloudinary/url-gen/actions'
-import "./Feed.css"
 import { Post } from "./Post"
+import deletePostIcon from "../img/DeletePost_Icon.png"
+import "./Feed.css"
 
 export const Feed = () => {
     const localSgUser = localStorage.getItem("sg_user")
     const sgUserObject = JSON.parse(localSgUser)
 
-    const cldInstance = new Cloudinary({ cloud: { cloudName: 'dwnxftunt' } })
-
     const [feed, setFeed] = useState([])
 
-    const postsSortNewExpandUserURL = `?_sort=uploadDate&_order=desc&_expand=user&_expand=band`
+    const postsSortNewExpandUserURL = `?_sort=id&_order=desc&_expand=user&_expand=band`
+
+    const getPosts = () => {
+        Fetch("posts", postsSortNewExpandUserURL,)
+            .then((postsArray) => { setFeed(postsArray) })
+    }
 
     useEffect(
         () => {
-            Fetch("posts", postsSortNewExpandUserURL,)
-                .then((postsArray) => { setFeed(postsArray) })
+            getPosts()
         }, [])
 
     return (
@@ -40,6 +43,9 @@ export const Feed = () => {
                         venueName={post.venue}
                         showDate={post.showDate}
                         memories={post.memories}
+                        uploadDate={post.uploadDate}
+                        activeProfile={sgUserObject.id}
+                        getPosts={getPosts}
                     />)
                 }
             </section>

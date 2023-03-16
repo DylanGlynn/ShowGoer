@@ -7,6 +7,7 @@ import "../feed/Feed.css"
 import "./Profiles.css"
 import { Post } from "../feed/Post"
 import LargeProfileIcon from "../img/Profile_LargeIcon.png";
+import deletePostIcon from "../img/DeletePost_Icon.png"
 
 export const Profile = () => {
     const localSgUser = localStorage.getItem("sg_user")
@@ -19,7 +20,7 @@ export const Profile = () => {
     const [user, setUser] = useState([])
     const [feed, setFeed] = useState([])
 
-    const postsSortNewExpandThisUserURL = `?_sort=uploadDate&_order=desc&_expand=user&_expand=band&userId=${sgUserObject.id}`
+    const postsSortNewExpandThisUserURL = `?_sort=id&_order=desc&_expand=user&_expand=band&userId=${sgUserObject.id}`
     const userIdURL = `?&id=${sgUserObject.id}`
 
     useEffect(
@@ -31,14 +32,18 @@ export const Profile = () => {
                 })
         }, [])
 
+    const getPosts = () => {
+        Fetch("posts", postsSortNewExpandThisUserURL,)
+            .then((postsArray) => { setFeed(postsArray) })
+    }
+
     useEffect(
         () => {
-            Fetch("posts", postsSortNewExpandThisUserURL,)
-                .then((postsArray) => { setFeed(postsArray) })
+            getPosts()
         }, [])
 
     return (
-        <article className="main">
+        <article className="profile__main">
             <section className="profile">
                 <div>
                     <img className="profile__iconLarge" src={LargeProfileIcon} />
@@ -69,7 +74,10 @@ export const Profile = () => {
                         imgURL={post.src}
                         venueName={post.venue}
                         showDate={post.showDate}
+                        uploadDate={post.uploadDate}
+                        activeProfile={sgUserObject.id}
                         memories={post.memories}
+                        getPosts={getPosts}
                     />)
                 }
             </section>

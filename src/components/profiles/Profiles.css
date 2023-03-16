@@ -1,3 +1,9 @@
+.profile__main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .profile {
     display: flex;
     flex-flow: row nowrap;
@@ -23,7 +29,6 @@
 }
 
 .profile__personalInfo {
-    font-style: italic;
     text-align: left;
     text-indent: 5px;
     font-size: 1rem;
