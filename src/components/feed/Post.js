@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import hidePostIcon from "../img/HidePost_Icon.png"
 import editPostIcon from "../img/EditPost_Icon.png"
 import deletePostIcon from "../img/DeletePost_Icon.png"
-import emptyPostIcon from "../img/EmptyIcon.png"
+import favoritePostIcon from "../img/Favorite_Icon.png"
 import { Fetch, Method } from "../ApiManager"
 
 export const Post = ({ id, userId, bandName, firstName, lastName, imgURL, venueName, showDate, uploadDate, memories, activeProfile, getPosts }) => {
@@ -48,7 +48,8 @@ export const Post = ({ id, userId, bandName, firstName, lastName, imgURL, venueN
                              />
                     </div>
                 </section> : <section className="post__manager">
-                    <div className="post__managerPlaceholder">
+                    <div className="post__managerFavorite">
+                        {/* <img className="post__managerFavorite" value={id} src={favoritePostIcon} /> */}
                     </div>
                 </section>}
         </article>

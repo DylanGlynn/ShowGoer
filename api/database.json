@@ -253,6 +253,17 @@
       "memories": "!!!!!",
       "SFW": false,
       "id": 15
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1678995564/ShowGoer/ps7u1eixxbed590tmggc.jpg",
+      "userId": 7,
+      "bandId": 14,
+      "venue": "House Show, Murfreesboro, TN",
+      "showDate": "2013-10-31",
+      "uploadDate": "3/16/2023",
+      "memories": "Halloween house party!",
+      "SFW": false,
+      "id": 16
     }
   ],
   "bands": [
@@ -352,5 +363,6 @@
       "id": 24,
       "name": "Meditations on the Tarot"
     }
-  ]
+  ],
+  "favorites": []
 }
