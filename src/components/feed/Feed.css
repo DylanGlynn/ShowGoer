@@ -85,15 +85,21 @@
 
 .post__manager {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     margin: auto 0;
     justify-content: space-around;
 }
 
 .post__manager img {
-    width: 50%;
+    width: 55%;
+    height: 55%;
 }
 
-.post__managerFavorite {
+.post__manager img:hover{
+    box-shadow: inset 100px 0 0 0 rgba(217,217,217, 0.8);
+}
+
+/* .post__managerFavorite {
     padding: 25.5px;
 }
+ */
