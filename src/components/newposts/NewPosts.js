@@ -58,10 +58,10 @@ export const NewPosts = () => {
     return (
         <section className="newPost">
             <form className="newPost__form" onSubmit={handlePublishButtonClick}>
-                <div className="newPost__header">Let's share that awesome concert photo!</div>
+                <div className="newPost__header">Hey, {sgUserObject.firstName}... Let's share that awesome concert photo!</div>
                 {UploadWidget(setImageURL)}
                 <fieldset>
-                    <div className="form-group">
+                    <div className="form-group newPost__fileUpload">
                         <label htmlFor="bandId"></label>
                         <select
                             required

@@ -7,7 +7,7 @@
 .profile {
     display: flex;
     flex-flow: row nowrap;
-    margin: 50px auto;
+    margin: 125px auto 50px auto;
 }
 
 .profile__iconLarge {
