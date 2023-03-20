@@ -97,7 +97,7 @@
       "showDate": "03/28/2022",
       "uploadDate": "2023-03-12T16:45:15.359Z",
       "memories": "BIG EARS 2022!!! A wonderful showcase of the music of John Zorn!",
-      "SFW": true,
+      "NSFW": false,
       "id": 1
     },
     {
@@ -108,7 +108,7 @@
       "showDate": "2019-10-14",
       "uploadDate": "03/15/2023",
       "memories": "Amazing set by the hybrid.",
-      "SFW": true,
+      "NSFW": false,
       "id": 2
     },
     {
@@ -119,7 +119,7 @@
       "showDate": "2019-04-20",
       "uploadDate": "03/15/2023",
       "memories": "None whatsoever!",
-      "SFW": true,
+      "NSFW": false,
       "id": 3
     },
     {
@@ -130,7 +130,7 @@
       "showDate": "2019-12-28",
       "uploadDate": "03/15/2023",
       "memories": "Fun times.",
-      "SFW": true,
+      "NSFW": false,
       "id": 4
     },
     {
@@ -141,7 +141,7 @@
       "showDate": "1994-11-18",
       "uploadDate": "03/15/2023",
       "memories": "Completely mesmerized...",
-      "SFW": true,
+      "NSFW": false,
       "id": 5
     },
     {
@@ -152,7 +152,7 @@
       "showDate": "2022-05-24",
       "uploadDate": "03/15/2023",
       "memories": "Totally amazing.",
-      "SFW": true,
+      "NSFW": false,
       "id": 6
     },
     {
@@ -163,7 +163,7 @@
       "showDate": "2013-10-31",
       "uploadDate": "03/15/2023",
       "memories": "Incredible!!!",
-      "SFW": true,
+      "NSFW": false,
       "id": 7
     },
     {
@@ -174,7 +174,7 @@
       "showDate": "2019-05-03",
       "uploadDate": "3/15/2023",
       "memories": "Mary Timony rules! What a fantastic show...",
-      "SFW": false,
+      "NSFW": false,
       "id": 8
     },
     {
@@ -185,7 +185,7 @@
       "showDate": "2015-05-05",
       "uploadDate": "3/15/2023",
       "memories": "No...???",
-      "SFW": false,
+      "NSFW": false,
       "id": 9
     },
     {
@@ -196,7 +196,7 @@
       "showDate": "2023-03-15",
       "uploadDate": "3/15/2023",
       "memories": "Video game music, live!? What will they think of next?",
-      "SFW": false,
+      "NSFW": false,
       "id": 10
     },
     {
@@ -207,7 +207,7 @@
       "showDate": "2021-09-26",
       "uploadDate": "3/16/2023",
       "memories": "Amazing festival from a person that hates festivals!",
-      "SFW": false,
+      "NSFW": false,
       "id": 11
     },
     {
@@ -218,7 +218,7 @@
       "showDate": "2023-02-03",
       "uploadDate": "3/16/2023",
       "memories": "A fantastic set of avant-metal.",
-      "SFW": false,
+      "NSFW": false,
       "id": 12
     },
     {
@@ -229,7 +229,7 @@
       "showDate": "1993-04-07",
       "uploadDate": "3/16/2023",
       "memories": "Foggy recollections of an age long passed.",
-      "SFW": false,
+      "NSFW": false,
       "id": 13
     },
     {
@@ -240,7 +240,7 @@
       "showDate": "2022-03-27",
       "uploadDate": "3/16/2023",
       "memories": "Big Ears!",
-      "SFW": false,
+      "NSFW": true,
       "id": 14
     },
     {
@@ -251,7 +251,7 @@
       "showDate": "2022-03-27",
       "uploadDate": "3/16/2023",
       "memories": "!!!!!",
-      "SFW": false,
+      "NSFW": false,
       "id": 15
     },
     {
@@ -262,8 +262,19 @@
       "showDate": "2013-10-31",
       "uploadDate": "3/16/2023",
       "memories": "Halloween house party!",
-      "SFW": false,
+      "NSFW": false,
       "id": 16
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679063297/ShowGoer/lpsqqwmjhnfuaadnpbjm.jpg",
+      "userId": 3,
+      "bandId": 15,
+      "venue": "The Caverns, Pelham, TN",
+      "showDate": "2022-12-10",
+      "uploadDate": "3/17/2023",
+      "memories": "Fog!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "NSFW": false,
+      "id": 17
     }
   ],
   "bands": [
@@ -364,5 +375,60 @@
       "name": "Meditations on the Tarot"
     }
   ],
-  "favorites": []
+  "favorites": [
+    {
+      "userId": 3,
+      "postId": 16,
+      "bandId": 14,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "postId": 17,
+      "bandId": 15,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "postId": 15,
+      "bandId": 21,
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "postId": 16,
+      "bandId": 14,
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "postId": 12,
+      "bandId": 1,
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "postId": 11,
+      "bandId": 1,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "postId": 6,
+      "bandId": 5,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "bandId": 17,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "bandId": 4,
+      "id": 9
+    }
+  ]
 }

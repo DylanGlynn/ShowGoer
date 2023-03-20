@@ -44,7 +44,7 @@ export const NewPosts = () => {
             showDate: newPost.showDate,
             uploadDate: new Date().toLocaleDateString(),
             memories: newPost.memories,
-            SFW: newPost.SFW
+            NSFW: newPost.NSFW
         }
 
         return Fetch("posts", "", Method("POST", postToSendToAPI))
@@ -125,20 +125,20 @@ export const NewPosts = () => {
                             }} />
                     </div>
                 </fieldset>
-                {/* <fieldset>
-                    <div className="form-group sfw">
+                <fieldset>
+                    <div className="form-group nsfw">
                         <input
                             type="checkbox"
-                            id="SFW"
-                            className="form-control sfw__box"
+                            id="NSFW"
+                            className="form-control nsfw__box"
                             onChange={(evt) => {
                                 const copy = { ...newPost }
-                                copy.SFW = evt.target.checked
+                                copy.NSFW = evt.target.checked
                                 setNewPost(copy)
                             }} />
-                        <label htmlFor="sfw__text">Safe for viewing at work!</label>
+                        <label htmlFor="nsfw__text">Hide from public stream?</label>
                     </div>
-                </fieldset> */}
+                </fieldset>
                 <fieldset>
                     <button className="button__submit" type="submit">Post it, now!</button>
                     <button className="button__cancel" type="cancel" onClick={cancelPost}>On second thought...</button>

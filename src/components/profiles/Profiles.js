@@ -68,6 +68,7 @@ export const Profile = () => {
                         key={`post--${post.id}`}
                         id={post.id}
                         userId={post.userId}
+                        bandId={post?.band.id}
                         bandName={post?.band?.name}
                         firstName={post?.user?.firstName}
                         lastName={post?.user?.lastName}
@@ -75,6 +76,7 @@ export const Profile = () => {
                         venueName={post.venue}
                         showDate={post.showDate}
                         uploadDate={post.uploadDate}
+                        nsfwValue={post.NSFW}
                         activeProfile={sgUserObject.id}
                         memories={post.memories}
                         getPosts={getPosts}

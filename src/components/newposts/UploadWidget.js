@@ -24,9 +24,3 @@ export const UploadWidget = (setImageURL) => {
         </fieldset>
     )
 }
-
-/* 
-    cloudinary.imageTag('ShowGoer/yghvzott3c2phfwk6sy8.heic').toHtml();
-    info.sercure_url (for https) or info.url (for http) = the URL for the file being uploaded. Need to pull to 
-    newPost.src to save to database.
-*/

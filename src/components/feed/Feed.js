@@ -13,7 +13,7 @@ export const Feed = () => {
 
     const [feed, setFeed] = useState([])
 
-    const postsSortNewExpandUserURL = `?_sort=id&_order=desc&_expand=user&_expand=band`
+    const postsSortNewExpandUserURL = `?_sort=id&_order=desc&_expand=user&_expand=band&NSFW=false`
 
     const getPosts = () => {
         Fetch("posts", postsSortNewExpandUserURL,)
@@ -36,6 +36,7 @@ export const Feed = () => {
                         key={`post--${post.id}`}
                         id={post.id}
                         userId={post.userId}
+                        bandId={post?.band.id}
                         bandName={post?.band?.name}
                         firstName={post?.user?.firstName}
                         lastName={post?.user?.lastName}
@@ -44,6 +45,7 @@ export const Feed = () => {
                         showDate={post.showDate}
                         memories={post.memories}
                         uploadDate={post.uploadDate}
+                        nsfwValue={post.NSFW}
                         activeProfile={sgUserObject.id}
                         getPosts={getPosts}
                     />)
