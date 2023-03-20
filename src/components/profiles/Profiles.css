@@ -36,7 +36,8 @@
 
 .profile__personalInfo em {
     font-family: 'Lobster';
-    color:rgb(185, 140, 0);
+    font-style: normal;
+    color: rgb(185, 140, 0);
     font-size: 1rem;
     margin-right: 7px;
 }
@@ -44,7 +45,7 @@
 .profile__logout {
     text-decoration: none;
     font-family: 'Lobster';
-    color:rgb(185, 140, 0);
+    color: rgb(185, 140, 0);
     font-size: 1rem;
     line-height: 2.5rem;
 }
@@ -53,4 +54,14 @@
     text-align: center;
     text-indent: -1050px;
     margin-bottom: 5px;
+}
+
+.feed__header em {
+    color: rgb(217,217,217);
+    font-style: normal;
+    background-color: rgb(185, 140, 0);
+    margin: 0 0 0 4px;
+    padding: 4px 12px;
+    border-radius: 25px;
+    text-indent: -50px;
 }

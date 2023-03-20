@@ -114,9 +114,7 @@ export const Post = (
                     </div>
                 </section> : <section className="post__manager">
                     <div className="post__managerFavorite" onClick={favoriteValue}>
-
                         <img className="post__managerFavorite" value={id} src={favoriteIcon} />
-
                     </div>
                 </section>}
         </article>

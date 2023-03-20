@@ -130,7 +130,7 @@
       "showDate": "2019-12-28",
       "uploadDate": "03/15/2023",
       "memories": "Fun times.",
-      "NSFW": false,
+      "NSFW": true,
       "id": 4
     },
     {
@@ -429,6 +429,12 @@
       "postId": 1,
       "bandId": 4,
       "id": 9
+    },
+    {
+      "userId": 2,
+      "postId": 17,
+      "bandId": 15,
+      "id": 10
     }
   ]
 }
