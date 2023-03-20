@@ -32,6 +32,7 @@
     text-align: left;
     text-indent: 5px;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .profile__personalInfo em {
