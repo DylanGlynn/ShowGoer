@@ -111,7 +111,7 @@ export const Register = (props) => {
                         setUser(copy)
                     }}
                         type="checkbox" id="isStaff" />
-                    <label className="register__isStaff" htmlFor="isStaff">Wait! Are we co-workers?!</label>
+                    <label className="register__isStaff" htmlFor="isStaff">Wait... Are we co-workers?!</label>
                 </fieldset>
                 <fieldset className="register__buttons">
                     <button className="button__submit" type="submit">Sign me up, now!</button>

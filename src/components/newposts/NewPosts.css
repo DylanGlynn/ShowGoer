@@ -41,11 +41,3 @@
     text-indent: 1.1rem;
     margin-bottom: 0;
 }
-
-.newPost__fileUpload.input:invalid+span::after {
-    content: "✖";
-}
-
-.newPost__fileUpload.input:valid+span::after {
-    content: "✓";
-}
