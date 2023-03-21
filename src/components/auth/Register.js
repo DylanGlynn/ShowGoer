@@ -2,17 +2,21 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { Fetch, Method } from "../ApiManager"
 import SgLargeLogo from "../img/Large_Logo.png";
+import { ProfileImageUploadWidget } from "./ProfileImageWidget"
 import "./Login.css"
 
 export const Register = (props) => {
+    const [profileImageURL, setImageURL] = useState(``)
     const [user, setUser] = useState({
         email: "",
         firstName: "",
         lastName: "",
         password: "",
         location: "",
+        profileImageURL: "",
         isStaff: false
     })
+
     const emailURL = `?email=${user.email}`
     let navigate = useNavigate()
 
@@ -26,7 +30,8 @@ export const Register = (props) => {
                         lastName: createdUser.lastName,
                         email: createdUser.email,
                         location: createdUser.location,
-                        staff: createdUser.isStaff
+                        staff: createdUser.isStaff,
+                        profileImageURL: createdUser.profileImageURL
                     }))
 
                     navigate("/")
@@ -51,6 +56,7 @@ export const Register = (props) => {
 
     const updateUser = (evt) => {
         const copy = { ...user }
+        copy.profileImageURL = profileImageURL
         copy[evt.target.id] = evt.target.value
         setUser(copy)
     }
@@ -64,6 +70,7 @@ export const Register = (props) => {
             <img className="logo__large" src={SgLargeLogo} alt="ShowGoer-Logo-Large" />
             <form className="form--login" onSubmit={handleRegister}>
                 <h2 className="register__header">Register for ShowGoer:</h2>
+                {ProfileImageUploadWidget(setImageURL, updateUser)}
                 <fieldset>
                     <label htmlFor="firstName"></label>
                     <input onChange={updateUser}
@@ -104,7 +111,7 @@ export const Register = (props) => {
                         setUser(copy)
                     }}
                         type="checkbox" id="isStaff" />
-                    <label className="register__isStaff" htmlFor="isStaff">Are we co-workers?!</label>
+                    <label className="register__isStaff" htmlFor="isStaff">Wait! Are we co-workers?!</label>
                 </fieldset>
                 <fieldset className="register__buttons">
                     <button className="button__submit" type="submit">Sign me up, now!</button>

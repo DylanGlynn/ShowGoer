@@ -23,7 +23,8 @@ export const Login = () => {
                         firstName: user.firstName,
                         lastName: user.lastName,
                         location: user.location,
-                        staff: user.isStaff
+                        staff: user.isStaff,
+                        profileImageURL: user.profileImageURL
                     }))
                     navigate("/")
                 }

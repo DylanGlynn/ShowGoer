@@ -23,6 +23,9 @@ export const Profile = () => {
     const postsSortNewExpandThisUserURL = `?_sort=id&_order=desc&_expand=user&_expand=band&userId=${sgUserObject.id}`
     const userIdURL = `?&id=${sgUserObject.id}`
 
+    let ProfileIconImage = LargeProfileIcon
+    sgUserObject.profileImageURL ? ProfileIconImage = sgUserObject.profileImageURL : ProfileIconImage = LargeProfileIcon
+    
     useEffect(
         () => {
             Fetch("users", userIdURL,)
@@ -46,7 +49,7 @@ export const Profile = () => {
         <article className="profile__main">
             <section className="profile">
                 <div>
-                    <img className="profile__iconLarge" src={LargeProfileIcon} />
+                    <img className="profile__iconLarge" src={ProfileIconImage} />
                 </div>
                 <div className="profile__details">
                     <h2 className="profile__infoHeader">My Info</h2>
