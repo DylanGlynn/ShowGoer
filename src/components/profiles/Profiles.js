@@ -65,7 +65,7 @@ export const Profile = () => {
                 </div>
             </section>
             <section className="feed">
-                <h2 className="feed__header">My Feed <em>{feed.length} posts</em></h2>
+                <h2 className="feed__header">My Feed <em>{feed.length} {feed.length === 1 ? `post` : `posts`}</em></h2>
                 {
                     feed.map(post => <Post
                         key={`post--${post.id}`}

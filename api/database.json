@@ -306,6 +306,50 @@
       "memories": "Radical... \n",
       "NSFW": false,
       "id": 19
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679429993/ShowGoer/pfhsutjibt7tqzluvxfd.jpg",
+      "userId": 9,
+      "bandId": 27,
+      "venue": "Decibel Beer and Metal Festival, Philadelphia, PA",
+      "showDate": "2021-09-26",
+      "uploadDate": "3/21/2023",
+      "memories": "I was abducted by aliens after this set.",
+      "NSFW": false,
+      "id": 20
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679430374/ShowGoer/beomthqlktfknhqyrxsp.jpg",
+      "userId": 2,
+      "bandId": 27,
+      "venue": "The Masquerade, Atlanta, GA",
+      "showDate": "2019-09-25",
+      "uploadDate": "3/21/2023",
+      "memories": "Band was great. Sound was not.",
+      "NSFW": false,
+      "id": 21
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679430550/ShowGoer/j12koverkvfylh2bttao.jpg",
+      "userId": 9,
+      "bandId": 26,
+      "venue": "Decibel Beer and Metal Festival, Philadelphia, PA",
+      "showDate": "2021-09-26",
+      "uploadDate": "3/21/2023",
+      "memories": "Too fun.",
+      "NSFW": false,
+      "id": 22
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679430914/ShowGoer/u8vrxgxy03ujrreqwf64.jpg",
+      "userId": 9,
+      "bandId": 29,
+      "venue": "The Schermerhorn Symphony Center, Nashville, TN",
+      "showDate": "2023-02-25",
+      "uploadDate": "3/21/2023",
+      "memories": "Gladys Knight and the NSO!!!",
+      "NSFW": false,
+      "id": 23
     }
   ],
   "bands": [
@@ -408,6 +452,22 @@
     {
       "id": 25,
       "name": "Weird Al Yankovic"
+    },
+    {
+      "id": 26,
+      "name": "Pig Destroyer"
+    },
+    {
+      "id": 27,
+      "name": "Blood Incantation"
+    },
+    {
+      "id": 28,
+      "name": "New Electric Masada"
+    },
+    {
+      "id": 29,
+      "name": "Nashville Symphony Orchestra"
     }
   ],
   "favorites": [
@@ -476,6 +536,24 @@
       "postId": 8,
       "bandId": 8,
       "id": 11
+    },
+    {
+      "userId": 2,
+      "postId": 18,
+      "bandId": 11,
+      "id": 12
+    },
+    {
+      "userId": 9,
+      "postId": 19,
+      "bandId": 6,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "postId": 20,
+      "bandId": 27,
+      "id": 14
     }
   ]
 }
