@@ -83,6 +83,7 @@ export const Profile = () => {
                         activeProfile={sgUserObject.id}
                         memories={post.memories}
                         getPosts={getPosts}
+                        profileImage={ProfileIconImage}
                     />)
                 }
             </section>

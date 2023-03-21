@@ -66,7 +66,7 @@
       "lastName": "Rosenblum",
       "password": "passwordz",
       "location": "Nashville, TN",
-      "profileImageURL": "",
+      "profileImageURL": "https://res.cloudinary.com/dwnxftunt/image/upload/v1679426827/ShowGoer_ProfileIcons/IMG_6944_jdesui.jpg",
       "isStaff": false,
       "id": 7
     },

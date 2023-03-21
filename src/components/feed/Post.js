@@ -7,13 +7,14 @@ import deletePostIcon from "../img/DeletePost_Icon.png"
 import favoritePostIcon from "../img/Favorite_Icon.png"
 import unfavoritePostIcon from "../img/NotFavorite_Icon.png"
 import { Fetch, Method } from "../ApiManager"
+import LargeProfileIcon from "../img/Profile_LargeIcon.png";
 
 export const Post = (
     {
         id, userId, bandId, bandName, firstName,
         lastName, imgURL, venueName,
         showDate, uploadDate, memories,
-        activeProfile, getPosts, nsfwValue
+        activeProfile, getPosts, nsfwValue, profileImage
     }) => {
 
     const [favorites, setFavorites] = useState([])
@@ -77,14 +78,20 @@ export const Post = (
                 <img className="post__photo" src={imgURL} />
             </section>
             <section className="post__details">
-                <article>
+                <article className="post__bandInfo">
                     <div className="post__bandName" value={bandId}>{bandName}</div>
                     <div className="post__venueName">at {venueName}</div>
                     <div className="post_showDate">on {showDate}</div>
-                    <div className="post__author" id={userId}>by {firstName} {lastName}</div>
                 </article>
-                <article className="post__uploadDate">
-                    <div className="post__postDate">posted on {uploadDate}</div>
+                <article className="post__uploadInfo">
+                    <div className="post__uploadAuthorImage"><img className="post__profileImage"
+                        src={
+                            profileImage ? profileImage : LargeProfileIcon
+                        }/></div>
+                    <article className="post__uploadDetails">
+                        <div className="post__author" id={userId}>by {firstName} {lastName}</div>
+                        <div className="post__postDate">posted on {uploadDate}</div>
+                    </article>
                 </article>
             </section>
             <section className="post__memories">

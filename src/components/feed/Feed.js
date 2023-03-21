@@ -48,6 +48,7 @@ export const Feed = () => {
                         nsfwValue={post.NSFW}
                         activeProfile={sgUserObject.id}
                         getPosts={getPosts}
+                        profileImage={post?.user.profileImageURL}
                     />)
                 }
             </section>
