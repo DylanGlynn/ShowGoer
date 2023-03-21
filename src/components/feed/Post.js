@@ -84,10 +84,10 @@ export const Post = (
                     <div className="post_showDate">on {showDate}</div>
                 </article>
                 <article className="post__uploadInfo">
-                    <div className="post__uploadAuthorImage"><img className="post__profileImage"
+                <Link to={`users/${userId}`}><div className="post__uploadAuthorImage"><img className="post__profileImage"
                         src={
                             profileImage ? profileImage : LargeProfileIcon
-                        }/></div>
+                        }/></div></Link>
                     <article className="post__uploadDetails">
                         <div className="post__author" id={userId}>by {firstName} {lastName}</div>
                         <div className="post__postDate">posted on {uploadDate}</div>

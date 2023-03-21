@@ -337,7 +337,7 @@
       "showDate": "2021-09-26",
       "uploadDate": "3/21/2023",
       "memories": "Too fun.",
-      "NSFW": false,
+      "NSFW": true,
       "id": 22
     },
     {
@@ -554,6 +554,12 @@
       "postId": 20,
       "bandId": 27,
       "id": 14
+    },
+    {
+      "userId": 9,
+      "postId": 6,
+      "bandId": 5,
+      "id": 15
     }
   ]
 }

@@ -8,7 +8,7 @@ export const EmployeeViews = () => {
 		<Routes>
 			<Route path="/" element={<Feed />} />
 			<Route path="/newposts" element={<NewPosts />} />
-			<Route path="users/:userId" element={<Profile />} />
+			<Route path="/users/:userId" element={<Profile />} />
 			<Route path="/profile" element={<Profile />} />
 		</Routes >
 	)
