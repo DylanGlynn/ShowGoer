@@ -7,6 +7,7 @@
     top: 0;
     width: 100%;
     margin: 0;
+    /* border-bottom: 2px solid rgb(185, 140, 0) */
 }
 
 .navbar__item {
