@@ -68,9 +68,10 @@
     flex-flow: row nowrap;
     justify-content: left;
     font-family: "Playfair Display";
-    font-weight: 500;
+    font-weight: 700;
     background-color: rgb(185, 140, 0);
-    padding: 5px
+    padding: 5px;
+    color: rgb(23, 23, 23)
 }
 
 .post__profileImage {
