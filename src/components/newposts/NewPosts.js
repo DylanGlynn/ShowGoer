@@ -17,7 +17,7 @@ export const NewPosts = () => {
         showDate: "",
         uploadDate: "",
         memories: "",
-        SFW: false
+        NSFW: false
     })
 
     const [imageURL, setImageURL] = useState(``)

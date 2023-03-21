@@ -42,6 +42,9 @@
 }
 
 .post__details {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     text-align: left;
     border-left: 2px solid rgb(185, 140, 0);
     border-right: 2px solid rgb(185, 140, 0);
@@ -54,16 +57,37 @@
 }
 
 .post__bandName {
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     line-height: 1.5rem;
     color: rgb(185, 140, 0);
-    margin: 0 0 3px 0;
+    margin: 0 0 5px 0;
 }
 
-.post__uploadDate {
-    margin: 5px 0 0 0;
+.post__uploadInfo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
     font-family: "Playfair Display";
-    font-weight: 600;
+    font-weight: 700;
+    background-color: rgb(185, 140, 0);
+    padding: 5px;
+    color: rgb(23, 23, 23)
+}
+
+.post__profileImage {
+    max-width: 50px;
+    margin: 0;
+    display: flex;
+    border: 2px solid rgb(23, 23, 23);
+    border-radius: 50%;
+}
+
+.post__uploadDetails {
+    display: inline-block;
+    flex-flow: column nowrap;
+    align-items: left;
+    margin: auto 0 auto 7px;
+
 }
 
 .post__memories {
@@ -96,6 +120,6 @@
     height: 55%;
 }
 
-.post__manager img:hover{
-    box-shadow: inset 100px 0 0 0 rgba(217,217,217, 0.8);
+.post__manager img:hover {
+    box-shadow: inset 100px 0 0 0 rgba(217, 217, 217, 0.8);
 }

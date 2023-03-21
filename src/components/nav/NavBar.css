@@ -37,6 +37,7 @@
     display: flex;
     flex-flow: row nowrap;
     padding-right: 20px;
+    align-items: last baseline;
 }
 
 .newPost__icon {

@@ -36,7 +36,7 @@
       "lastName": "McLeod",
       "password": "passwordz",
       "location": "Montgomery, AL",
-      "profileImageURL": "",
+      "profileImageURL": "https://res.cloudinary.com/dwnxftunt/image/upload/v1679427076/ShowGoer_ProfileIcons/wddfopifwzesi8dfghwt.png",
       "isStaff": true,
       "id": 4
     },
@@ -66,7 +66,7 @@
       "lastName": "Rosenblum",
       "password": "passwordz",
       "location": "Nashville, TN",
-      "profileImageURL": "",
+      "profileImageURL": "https://res.cloudinary.com/dwnxftunt/image/upload/v1679426827/ShowGoer_ProfileIcons/IMG_6944_jdesui.jpg",
       "isStaff": false,
       "id": 7
     },
@@ -284,6 +284,28 @@
       "memories": "Fog!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "NSFW": false,
       "id": 17
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679427722/ShowGoer/croc9ovdfqobgb4tnxuk.jpg",
+      "userId": 5,
+      "bandId": 11,
+      "venue": "Radio City Music Hall, New York City",
+      "showDate": "2022-09-18",
+      "uploadDate": "3/21/2023",
+      "memories": "She is amazing!",
+      "id": 18,
+      "NSFW": false
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679427920/ShowGoer/v511gmc8kntq0cuu6lkr.jpg",
+      "userId": 5,
+      "bandId": 6,
+      "venue": "Underground House Show, Philadelphia, PA",
+      "showDate": "2017-07-07",
+      "uploadDate": "3/21/2023",
+      "memories": "Radical... \n",
+      "NSFW": false,
+      "id": 19
     }
   ],
   "bands": [
@@ -382,6 +404,10 @@
     {
       "id": 24,
       "name": "Meditations on the Tarot"
+    },
+    {
+      "id": 25,
+      "name": "Weird Al Yankovic"
     }
   ],
   "favorites": [
@@ -444,6 +470,12 @@
       "postId": 17,
       "bandId": 15,
       "id": 10
+    },
+    {
+      "userId": 5,
+      "postId": 8,
+      "bandId": 8,
+      "id": 11
     }
   ]
 }
