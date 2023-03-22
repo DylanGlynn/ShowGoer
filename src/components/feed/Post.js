@@ -79,15 +79,15 @@ export const Post = (
             </section>
             <section className="post__details">
                 <article className="post__bandInfo">
-                    <div className="post__bandName" value={bandId}>{bandName}</div>
+                    <Link to={`/bands/${bandId}`}><div className="post__bandName" value={bandId}>{bandName}</div></Link>
                     <div className="post__venueName">at {venueName}</div>
                     <div className="post_showDate">on {showDate}</div>
                 </article>
                 <article className="post__uploadInfo">
-                <Link to={`users/${userId}`}><div className="post__uploadAuthorImage"><img className="post__profileImage"
+                    <Link to={`/users/${userId}`}><div className="post__uploadAuthorImage"><img className="post__profileImage"
                         src={
                             profileImage ? profileImage : LargeProfileIcon
-                        }/></div></Link>
+                        } /></div></Link>
                     <article className="post__uploadDetails">
                         <div className="post__author" id={userId}>by {firstName} {lastName}</div>
                         <div className="post__postDate">posted on {uploadDate}</div>

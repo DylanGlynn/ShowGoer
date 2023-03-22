@@ -350,124 +350,251 @@
       "memories": "Gladys Knight and the NSO!!!",
       "NSFW": false,
       "id": 23
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679516362/ShowGoer/q0si64m0mlzbrhfohwlx.jpg",
+      "userId": 2,
+      "bandId": 2,
+      "venue": "Autograph Rehearsal Studio, Murfreesboro, TN",
+      "showDate": "2018-03-18",
+      "uploadDate": "3/22/2023",
+      "memories": "Such an incredible show!!!",
+      "NSFW": false,
+      "id": 24
     }
   ],
   "bands": [
     {
       "id": 1,
-      "name": "Imperial Triumphant"
+      "name": "Imperial Triumphant",
+      "members": "Steven Blanco, Zachary Ezrin, & Kenny Grohowski",
+      "website": "https://www.imperial-triumphant.com/",
+      "from": "New York City, New York, USA",
+      "genre": "Avant-Garde Black Metal"
     },
     {
       "id": 2,
-      "name": "Cleric."
+      "name": "Cleric.",
+      "members": "Matt Hollenberg, Daniel Ephraim Kennedy, Larry Kwartowitz, & Nick Shellenberger",
+      "website": "http://iamcleric.com/home.htm",
+      "from": "Philadelphia, PA, USA",
+      "genre": "Avant-Garde Metal"
     },
     {
       "id": 3,
-      "name": "Patti Smith"
+      "name": "Patti Smith",
+      "members": "",
+      "website": "https://www.pattismith.net/intro.html",
+      "from": "New York City, New York, USA",
+      "genre": "Punk Rock"
     },
     {
       "id": 4,
-      "name": "The New Masada Quartet"
+      "name": "The New Masada Quartet",
+      "members": "Jorge Roeder, Julian Lage, Kenny Wolleson, & John Zorn",
+      "website": "http://tzadik.com",
+      "from": "New York City, New York, USA",
+      "genre": "Jazz"
     },
     {
       "id": 5,
-      "name": "Nine Inch Nails"
+      "name": "Nine Inch Nails",
+      "members": "Trent Reznor & Atticus Ross",
+      "website": "http://nin.com",
+      "from": "Cleveland, OH, USA",
+      "genre": "Industrial"
     },
     {
       "id": 6,
-      "name": "Battles"
+      "name": "Battles",
+      "members": "John Stanier & Ian Williams",
+      "website": "https://www.bttls.com/",
+      "from": "New York City, New York, USA",
+      "genre": "Experimental Rock"
     },
     {
       "id": 7,
-      "name": "Danny Brown"
+      "name": "Danny Brown",
+      "members": "",
+      "website": "https://uknowhatimsayin.com/",
+      "from": "Detroid, MI, USA",
+      "genre": "Alternative Hip-Hop"
     },
     {
       "id": 8,
-      "name": "Ex Hex"
+      "name": "Ex Hex",
+      "members": "Laura Harris, Mary Timony, & Betsy Wright",
+      "website": "https://exhexband.bandcamp.com/",
+      "from": "Washington DC, USA",
+      "genre": "Rock"
     },
     {
       "id": 9,
-      "name": "The Jesus Lizard"
+      "name": "The Jesus Lizard",
+      "members": "Duane Denison, Mac McNeilly, David Wm. Sims, & David Yow",
+      "website": "",
+      "from": "Austin, TX, USA",
+      "genre": "Rock"
     },
     {
       "id": 10,
-      "name": "Vamptones"
+      "name": "Vamptones",
+      "members": "Shea H, Erin Piper, Ben W, & Nicole W",
+      "website": "https://thevamptones.bandcamp.com/",
+      "from": "Murfreesboro, TN, USA",
+      "genre": "Rock"
     },
     {
       "id": 11,
-      "name": "Rosalía"
+      "name": "Rosalía",
+      "members": "",
+      "website": "https://www.rosalia.com/",
+      "from": "Sant Cugat del Vallès, Catalonia, Spain",
+      "genre": ""
     },
     {
       "id": 12,
-      "name": "Petra Hayden"
+      "name": "Petra Hayden",
+      "members": "",
+      "website": "petrahaden.com",
+      "from": "New York City, New York, USA",
+      "genre": "Pop"
     },
     {
       "id": 13,
-      "name": "Isolation Tank Ensemble"
+      "name": "Isolation Tank Ensemble",
+      "members": "Andrew Allen, Mateo Barnett, Kirstyn Blandy, Matt Clayton, Lamar Cornett, & Richard Herrell",
+      "website": "https://isolationtankensemble1.bandcamp.com/releases",
+      "from": "Louisville, KY, USA",
+      "genre": "Chamber Prog"
     },
     {
       "id": 14,
-      "name": "The Most Amazing Century of Science"
+      "name": "The Most Amazing Century of Science",
+      "members": "Gabriel Crouch, Christopher Davis, Dylan Hawes-Glynn, Albert Nua Jr., & Jeremy Trotter",
+      "website": "https://themostamazingcenturyofscience.bandcamp.com/music",
+      "from": "Nashville, TN, USA",
+      "genre": "Post-modern"
     },
     {
       "id": 15,
-      "name": "Sunn O)))"
+      "name": "Sunn O)))",
+      "members": "Stephen O'Malley & Greg Anderson",
+      "website": "https://sunn.southernlord.com/",
+      "from": "Seattle, WA, USA",
+      "genre": "Doom Metal"
     },
     {
       "id": 16,
-      "name": "Artificial Brain"
+      "name": "Artificial Brain",
+      "members": "Keith Abrami, Dan Gargiulo, Jon Locastro, Samuel Smith, & Oleg Zalman",
+      "website": "https://profoundlorerecords.bandcamp.com/album/artificial-brain",
+      "from": "Valley Stream, NY, USA",
+      "genre": "Progressive Death Metal"
     },
     {
       "id": 17,
-      "name": "Zeni Geva"
+      "name": "Zeni Geva",
+      "members": "KK Null & Yoshida Tatsuya",
+      "website": "https://zeni-geva.bandcamp.com/releases",
+      "from": "Tokyo, Japan",
+      "genre": "Noise Rock"
     },
     {
       "id": 18,
-      "name": "Bit Brigade"
+      "name": "Bit Brigade",
+      "members": "Mike Albanese, Jace Bartet, Luke Fields, & Bryan Williamson",
+      "website": "https://www.bitbrigade.net/",
+      "from": "Athens, GA, USA",
+      "genre": "Video Game Soundtrack Cover Band"
     },
     {
       "id": 19,
-      "name": "Fugazi"
+      "name": "Fugazi",
+      "members": "Brendan Canty, Joe Lally, Ian MacKaye, & Guy Picciotto",
+      "website": "https://www.dischord.com/band/fugazi",
+      "from": "Washington DC, USA",
+      "genre": "Post Hardcore"
     },
     {
       "id": 20,
-      "name": "Simulacrum"
+      "name": "Simulacrum",
+      "members": "Kenny Grohowski, Matt Hollenberg, & John Medeski",
+      "website": "http://tzadik.com",
+      "from": "New York City, New York, USA",
+      "genre": "Chamber Metal"
     },
     {
       "id": 21,
-      "name": "Chaos Magick"
+      "name": "Chaos Magick",
+      "members": "Kenny Grohowski, Matt Hollenberg, Brian Marsella, & John Medeski",
+      "website": "http://tzadik.com",
+      "from": "New York City, New York, USA",
+      "genre": "Chamber Metal"
     },
     {
       "id": 22,
-      "name": "Sparks"
+      "name": "Sparks",
+      "members": "Ron Mael & Russell Mael",
+      "website": "https://allsparks.com/",
+      "from": "Pacific Palisades, CA, USA",
+      "genre": "Art Pop"
     },
     {
       "id": 23,
-      "name": "Man or Astroman?"
+      "name": "Man or Astroman?",
+      "members": "Brian Causey, Robert del Bueno, & Brian Teasley",
+      "website": "https://app.astroman.com/dl/d8fc49",
+      "from": "Auburn, AL, USA",
+      "genre": "Surf Rock"
     },
     {
       "id": 24,
-      "name": "Meditations on the Tarot"
+      "name": "Meditations on the Tarot",
+      "members": "Trevor Dunn, Brian Marsella, & Kenny Wolleson",
+      "website": "http://tzadik.com",
+      "from": "New York City, New York, USA",
+      "genre": "Chamber Jazz"
     },
     {
       "id": 25,
-      "name": "Weird Al Yankovic"
+      "name": "Weird Al Yankovic",
+      "members": "",
+      "website": "https://www.weirdal.com/",
+      "from": "Lynwood, CA, USA",
+      "genre": "Pop"
     },
     {
       "id": 26,
-      "name": "Pig Destroyer"
+      "name": "Pig Destroyer",
+      "members": "Blake Harrison, J. R. Hayes, Scott Hull, Adam Jarvis, & Travis Stone",
+      "website": "https://pigdestroyer.band/",
+      "from": "Alexandria, VA, USA",
+      "genre": "Grindcore"
     },
     {
       "id": 27,
-      "name": "Blood Incantation"
+      "name": "Blood Incantation",
+      "members": "Jeff Barrett, Issac Faulk, Morris Kolontyrsky, & Paul Riedl",
+      "website": "https://bloodincantation.bandcamp.com/",
+      "from": "Denver, CO, USA",
+      "genre": "Death metal"
     },
     {
       "id": 28,
-      "name": "New Electric Masada"
+      "name": "New Electric Masada",
+      "members": "Trevor Dunn, Bill Frisell, Kenny Grohowski, Julian Lage, Brian Marsella, John Medeski, Ches Smith, Kenny Wolleson, & John Zorn",
+      "website": "http://tzadik.com",
+      "from": "New York City, New York, USA",
+      "genre": "Jazz Fusion"
     },
     {
       "id": 29,
-      "name": "Nashville Symphony Orchestra"
+      "name": "Nashville Symphony Orchestra",
+      "members": "Giancarlo Guerrero, musical director",
+      "website": "http://nashvillesymphony.org",
+      "from": "Nashville, TN, USA",
+      "genre": "Classical"
     }
   ],
   "favorites": [
@@ -560,6 +687,18 @@
       "postId": 6,
       "bandId": 5,
       "id": 15
+    },
+    {
+      "userId": 9,
+      "postId": 16,
+      "bandId": 14,
+      "id": 16
+    },
+    {
+      "userId": 9,
+      "postId": 21,
+      "bandId": 27,
+      "id": 17
     }
   ]
 }
