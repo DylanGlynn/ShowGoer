@@ -56,7 +56,7 @@
       "lastName": "O'Flinn",
       "password": "passwordz",
       "location": "Nashville, TN",
-      "profileImageURL": "",
+      "profileImageURL": "https://res.cloudinary.com/dwnxftunt/image/upload/v1679519353/ShowGoer_ProfileIcons/xtiii5qxfdfccn6sdcyf.jpg",
       "isStaff": false,
       "id": 6
     },
@@ -76,7 +76,7 @@
       "lastName": "Currey",
       "password": "passwordz",
       "location": "Madison, TN",
-      "profileImageURL": "",
+      "profileImageURL": "https://res.cloudinary.com/dwnxftunt/image/upload/v1679517608/ShowGoer_ProfileIcons/IMG_1376_luot81.jpg",
       "isStaff": false,
       "id": 8
     },
@@ -361,6 +361,28 @@
       "memories": "Such an incredible show!!!",
       "NSFW": false,
       "id": 24
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679517696/ShowGoer/hflvw3pjiimms9fzqazv.jpg",
+      "userId": 8,
+      "bandId": 21,
+      "venue": "Big Ears, Bijou Knoxville, TN",
+      "showDate": "2022-03-26",
+      "uploadDate": "3/22/2023",
+      "memories": "Incredible!",
+      "NSFW": false,
+      "id": 25
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679518054/ShowGoer/mg8h77ty7nclsjakde1b.jpg",
+      "userId": 6,
+      "bandId": 25,
+      "venue": "Ascend Amphitheater, Nashville, TN",
+      "showDate": "2019-06-29",
+      "uploadDate": "3/22/2023",
+      "memories": "I can't believe he played Like a Surgeon!",
+      "NSFW": false,
+      "id": 26
     }
   ],
   "bands": [
@@ -699,6 +721,42 @@
       "postId": 21,
       "bandId": 27,
       "id": 17
+    },
+    {
+      "userId": 8,
+      "postId": 24,
+      "bandId": 2,
+      "id": 18
+    },
+    {
+      "userId": 8,
+      "postId": 19,
+      "bandId": 6,
+      "id": 19
+    },
+    {
+      "userId": 8,
+      "postId": 18,
+      "bandId": 11,
+      "id": 20
+    },
+    {
+      "userId": 8,
+      "postId": 15,
+      "bandId": 21,
+      "id": 21
+    },
+    {
+      "userId": 6,
+      "postId": 24,
+      "bandId": 2,
+      "id": 22
+    },
+    {
+      "userId": 6,
+      "postId": 21,
+      "bandId": 27,
+      "id": 23
     }
   ]
 }
