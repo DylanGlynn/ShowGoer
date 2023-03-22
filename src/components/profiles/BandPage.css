@@ -1,0 +1,38 @@
+.band__page {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 63%;
+    margin: 0 auto 25px auto;
+    text-align: left;
+    text-indent: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.band__name {
+    font-family: 'Lobster';
+    color: rgb(185, 140, 0);
+    font-size: 3rem;
+    text-align: left;
+    text-indent: 0;
+    margin-bottom: -10px;
+}
+
+.band__genreLocation {
+    text-align: left;
+    text-indent: 5%;
+    margin-bottom: -5px;
+}
+
+.band__members {
+    text-align: left;
+    text-indent: 5%;
+    margin-bottom: -5px;
+}
+
+.band__website {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-indent: 5%;
+    color: rgb(185, 140, 0)
+}
