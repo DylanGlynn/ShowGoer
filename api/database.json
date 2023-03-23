@@ -405,7 +405,7 @@
     {
       "id": 3,
       "name": "Patti Smith",
-      "members": "",
+      "members": "Patti Smith",
       "website": "https://www.pattismith.net/intro.html",
       "from": "New York City, New York, USA",
       "genre": "Punk Rock"
@@ -437,7 +437,7 @@
     {
       "id": 7,
       "name": "Danny Brown",
-      "members": "",
+      "members": "Danny Brown",
       "website": "https://uknowhatimsayin.com/",
       "from": "Detroid, MI, USA",
       "genre": "Alternative Hip-Hop"
@@ -454,7 +454,7 @@
       "id": 9,
       "name": "The Jesus Lizard",
       "members": "Duane Denison, Mac McNeilly, David Wm. Sims, & David Yow",
-      "website": "",
+      "website": "http://www.touchandgorecords.com/bands/band.php?id=78",
       "from": "Austin, TX, USA",
       "genre": "Rock"
     },
@@ -675,12 +675,6 @@
       "id": 9
     },
     {
-      "userId": 2,
-      "postId": 17,
-      "bandId": 15,
-      "id": 10
-    },
-    {
       "userId": 5,
       "postId": 8,
       "bandId": 8,
@@ -765,28 +759,61 @@
       "id": 24
     },
     {
-      "userId": 3,
-      "postId": 0,
-      "bandId": 25,
+      "userId": 2,
+      "postId": 17,
+      "bandId": 15,
       "id": 25
     },
     {
-      "userId": 2,
-      "postId": 0,
-      "bandId": 2,
+      "userId": 3,
+      "postId": 26,
+      "bandId": 25,
       "id": 26
     },
     {
       "userId": 2,
-      "postId": 0,
-      "bandId": 27,
+      "postId": 2,
+      "bandId": 7,
       "id": 27
     },
     {
       "userId": 2,
-      "postId": 0,
-      "bandId": 15,
+      "postId": 25,
+      "bandId": 21,
       "id": 28
+    },
+    {
+      "userId": 2,
+      "postId": 23,
+      "bandId": 29,
+      "id": 29
+    }
+  ],
+  "favoriteBands": [
+    {
+      "userId": 3,
+      "bandId": 25,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "bandId": 6,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "bandId": 25,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "bandId": 2,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "bandId": 7,
+      "id": 5
     }
   ]
 }

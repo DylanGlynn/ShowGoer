@@ -1,21 +1,16 @@
 import { useEffect, useState } from "react"
-import { Fetch, FetchExternal, Method } from "../ApiManager"
-import { useParams, Link, useNavigate } from "react-router-dom"
-import { Cloudinary } from '@cloudinary/url-gen'
-import { Resize } from '@cloudinary/url-gen/actions'
+import { Fetch } from "../ApiManager"
+import { Link, useNavigate } from "react-router-dom"
 import "../feed/Feed.css"
 import "./Profiles.css"
 import { Post } from "../feed/Post"
 import LargeProfileIcon from "../img/Profile_LargeIcon.png";
-import deletePostIcon from "../img/DeletePost_Icon.png"
 
 export const Profile = () => {
     const localSgUser = localStorage.getItem("sg_user")
     const sgUserObject = JSON.parse(localSgUser)
 
     const navigate = useNavigate()
-
-    const { userId } = useParams()
 
     const [user, setUser] = useState([])
     const [feed, setFeed] = useState([])
@@ -49,7 +44,7 @@ export const Profile = () => {
         <article className="profile__main">
             <section className="profile">
                 <div>
-                    <img className="profile__iconLarge" src={ProfileIconImage} />
+                    <img className="profile__iconLarge" src={ProfileIconImage} alt="ProfileImage"/>
                 </div>
                 <div className="profile__details">
                     <h2 className="profile__infoHeader">My Info</h2>

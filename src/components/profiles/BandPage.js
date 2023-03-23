@@ -17,11 +17,10 @@ export const BandPage = () => {
     const [favorites, setFavorites] = useState([])
     const favoriteInfoToSendToAPI = {
         userId: sgUserObject.id,
-        postId: 0,
         bandId: parseInt(bandId)
     }
 
-    const postsSortNewExpandUserURL = `?_sort=id&_order=desc&_expand=user&_expand=band&NSFW=false&bandId=${bandId}`
+    const postsSortNewExpandUserURL = `?_sort=id&_order=desc&_expand=user&_expand=band&bandId=${bandId}`
     const bandIdURL = `?&id=${bandId}`
 
     const getBands = () => {
@@ -49,7 +48,7 @@ export const BandPage = () => {
         }, [bandId])
 
     const getFavorites = () => {
-        Fetch("favorites", "",)
+        Fetch("favoriteBands", "",)
             .then((favoritesArray) => { setFavorites(favoritesArray) })
     }
 
@@ -57,7 +56,7 @@ export const BandPage = () => {
 
     let favoriteIcon = unfavoriteBandIcon
     favorites.map(favorite => {
-        if (favorite.bandId === parseInt(bandId) && favorite.userId === sgUserObject.id && favorite.postId === 0) {
+        if (favorite.bandId === parseInt(bandId) && favorite.userId === sgUserObject.id) {
             favoriteIcon = favoriteBandIcon
         }
     })
@@ -67,17 +66,17 @@ export const BandPage = () => {
         let favoriteUserId = 0
         let favoriteId = 0
         favorites.map(favorite => {
-            if (favorite.bandId === parseInt(bandId) && favorite.userId === sgUserObject.id && favorite.postId === 0) {
+            if (favorite.bandId === parseInt(bandId) && favorite.userId === sgUserObject.id) {
                 favoriteBandId = favorite.bandId
                 favoriteUserId = favorite.userId
                 favoriteId = favorite.id
             }
         })
         if (favoriteBandId === parseInt(bandId) && favoriteUserId === sgUserObject.id) {
-            Fetch("favorites/", favoriteId, Method("DELETE"))
+            Fetch("favoriteBands/", favoriteId, Method("DELETE"))
                 .then(() => getFavorites())
         } else {
-            Fetch("favorites", "", Method("POST", favoriteInfoToSendToAPI))
+            Fetch("favoriteBands", "", Method("POST", favoriteInfoToSendToAPI))
                 .then(() => getFavorites())
         }
     }
@@ -87,9 +86,9 @@ export const BandPage = () => {
             <section className="band__page">
                 <div className="band__nameGroup">
                     <div className="band__name">{band.name}</div>
-                    <div className="band__managerFavorite" value={bandId} onClick={favoriteBandValue}>
+                    {<div className="band__managerFavorite" value={bandId} onClick={favoriteBandValue}>
                         <img className="band__managerFavoriteImg" src={favoriteIcon} alt="Favorite" />
-                    </div>
+                    </div>}
                 </div>
                 <div className="band__genreLocation">{band.genre} from {band.from}</div>
                 <div className="band__members">{band.members}</div>

@@ -1,4 +1,4 @@
-import { Outlet, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import { Feed } from "../feed/Feed.js"
 import { NewPosts } from "../newposts/NewPosts.js"
 import { Profile } from "../profiles/Profiles.js"
