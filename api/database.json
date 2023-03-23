@@ -383,6 +383,17 @@
       "memories": "I can't believe he played Like a Surgeon!",
       "NSFW": false,
       "id": 26
+    },
+    {
+      "src": "http://res.cloudinary.com/dwnxftunt/image/upload/v1679596517/ShowGoer/jfxmvmdff8e5zhak6ahm.jpg",
+      "userId": 9,
+      "bandId": 22,
+      "venue": "Big Ears Festival, Tennessee Theater, Knoxville, TN",
+      "showDate": "2022-03-24",
+      "uploadDate": "3/23/2023",
+      "memories": "Nice venue. Great sound. Every band there sounded fantastic.",
+      "NSFW": false,
+      "id": 27
     }
   ],
   "bands": [
@@ -814,6 +825,16 @@
       "userId": 2,
       "bandId": 7,
       "id": 5
+    },
+    {
+      "userId": 9,
+      "bandId": 22,
+      "id": 6
+    },
+    {
+      "userId": 9,
+      "bandId": 1,
+      "id": 7
     }
   ]
 }
