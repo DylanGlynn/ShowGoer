@@ -448,7 +448,7 @@
     {
       "id": 7,
       "name": "Danny Brown",
-      "members": "Danny Brown",
+      "members": "",
       "website": "https://uknowhatimsayin.com/",
       "from": "Detroid, MI, USA",
       "genre": "Alternative Hip-Hop"
@@ -628,6 +628,27 @@
       "website": "http://nashvillesymphony.org",
       "from": "Nashville, TN, USA",
       "genre": "Classical"
+    },{
+      "id": 30,
+      "name": "Kayo Dot",
+      "members": "Jason Byron, Toby Driver, & Greg Massi",
+      "website": "http://www.kayodot.net/",
+      "from": "New York City, New York, USA",
+      "genre": "Experimental Rock"
+    },{
+      "id": 31,
+      "name": "M'Dou Moctar",
+      "members": "Michael Coltun, Souleymane Ibrahim, Ahmoudou Madassane, & Mahamadou Souleymane",
+      "website": "https://www.mdoumoctar.com/",
+      "from": "Tchintabaraden, Niger",
+      "genre": "Tuareg / Rock"
+    },{
+      "id": 32,
+      "name": "Low",
+      "members": "Alan Sparhawk",
+      "website": "https://www.chairkickers.com/",
+      "from": "Duluth, MN, USA",
+      "genre": "Indie Rock"
     }
   ],
   "favorites": [
