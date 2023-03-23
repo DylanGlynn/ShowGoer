@@ -52,7 +52,7 @@ export const Post = (
         }
     })
 
-    let favoriteValue = () => {
+    let favoritePostValue = () => {
         let favoritePostId = 0
         let favoriteUserId = 0
         let favoriteId = 0
@@ -100,7 +100,7 @@ export const Post = (
             </section>
             {activeProfile === userId ?
                 <section className="post__manager">
-                    <div className="post__managerFavorite" onClick={favoriteValue}>
+                    <div className="post__managerFavorite" onClick={favoritePostValue}>
                         <img className="post__managerFavorite" src={favoriteIcon} alt="Favorite" />
                     </div>
                     {/* 
@@ -120,7 +120,7 @@ export const Post = (
                         />
                     </div>
                 </section> : <section className="post__manager">
-                    <div className="post__managerFavorite" onClick={favoriteValue}>
+                    <div className="post__managerFavorite" onClick={favoritePostValue}>
                         <img className="post__managerFavorite" value={id} src={favoriteIcon} />
                     </div>
                 </section>}

@@ -9,25 +9,44 @@
     font-size: 1rem;
 }
 
+.band__nameGroup {
+    display: flex;
+    flex-flow: wrap nowrap;
+    align-items: baseline;
+}
+
+.band__managerFavorite {
+    display: inline;
+}
+
+.band__managerFavoriteImg {
+    width: 75%;
+    margin-bottom: -3px;
+}
+
+.band__nameGroup img:hover {
+    box-shadow: inset 100px 0 0 0 rgba(217, 217, 217, 0.8);
+}
+
 .band__name {
     font-family: 'Lobster';
     color: rgb(185, 140, 0);
     font-size: 3rem;
     text-align: left;
     text-indent: 0;
-    margin-bottom: -10px;
+    margin: 0 20px -10px 0;
 }
 
 .band__genreLocation {
     text-align: left;
     text-indent: 5%;
-    margin-bottom: -5px;
+    margin-bottom: -3px;
 }
 
 .band__members {
     text-align: left;
     text-indent: 5%;
-    margin-bottom: -5px;
+    margin-bottom: -3px;
 }
 
 .band__website {
