@@ -1,3 +1,17 @@
+### SHOWGOER READ ME ###
+
+ShowGoer is an application for sharing concert photos. 
+
+New users can register for an account.
+Users can upload their photos and share their expirences.
+Users can show their picture in the public feed (default) or choose to hide it. These will still appear on the user's profile feed.
+All users have their own profile page which displays their info and entire upload history.
+The user's own profile page gives them the option to sign out.
+User's have the ability to delete or hide their posts.
+
+All users can favorite a post or band.
+
+### ORIGINAL REACT README.md ###
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
