@@ -649,6 +649,20 @@
       "website": "https://www.chairkickers.com/",
       "from": "Duluth, MN, USA",
       "genre": "Indie Rock"
+    },{
+      "id": 33,
+      "name": "Liturgy",
+      "members": "Haela Hunt-Hendrix, Mario Miron, Tia Vincent-Clark, & Leo Didkovsky",
+      "website": "http://arkwork.org/",
+      "from": "Brooklyn, New York, USA",
+      "genre": "Transcendental black metal"
+    },{
+      "id": 34,
+      "name": "John Zorn",
+      "members": "",
+      "website": "http://tzadik.com",
+      "from": "New York City, New York, USA",
+      "genre": "Jazz/Classical"
     }
   ],
   "favorites": [
